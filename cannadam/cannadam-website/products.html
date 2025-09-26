@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Cannadam</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+    <!-- Age Verification Modal -->
+    <div id="ageModal" class="modal">
+        <div class="modal-content">
+            <h2>Verificación de Edad</h2>
+            <p>Debes tener 21 años o más para acceder a este sitio.</p>
+            <p>¿Eres mayor de 21 años?</p>
+            <div class="modal-buttons">
+                <button id="ageYes" class="btn-primary">Sí, tengo 21+</button>
+                <button id="ageNo" class="btn-secondary">No</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <h1>🌿 Cannadam</h1>
+                </div>
+                <div class="nav-search">
+                    <input type="text" placeholder="Buscar productos, strains, dispensarios...">
+                    <button class="search-btn">🔍</button>
+                </div>
+                <div class="nav-menu">
+                    <a href="index.html">Inicio</a>
+                    <a href="dispensaries.html">Dispensarios</a>
+                    <a href="#">Deliveries</a>
+                    <a href="products.html" class="active">Productos</a>
+                    <a href="#">Educación</a>
+                    <a href="#">Contacto</a>
+                    <a href="#" class="btn-login">Login</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="products-hero">
+            <div class="container">
+                <h1>Productos Premium de Cannabis</h1>
+                <p>Descubre productos de alta calidad de dispensarios verificados. Todos los productos cumplen con regulaciones locales.</p>
+            </div>
+        </section>
+
+        <!-- Filters Section -->
+        <section class="filters-section">
+            <div class="container">
+                <div class="filters-container">
+                    <!-- Category Filters -->
+                    <div class="filter-group">
+                        <h3>Categorías</h3>
+                        <div class="category-buttons">
+                            <button class="category-btn active" data-category="all">Todos</button>
+                            <button class="category-btn" data-category="flowers">Flowers</button>
+                            <button class="category-btn" data-category="edibles">Edibles</button>
+                            <button class="category-btn" data-category="vapes">Vapes</button>
+                            <button class="category-btn" data-category="concentrates">Concentrates</button>
+                            <button class="category-btn" data-category="topicals">Topicals</button>
+                        </div>
+                    </div>
+
+                    <!-- Advanced Filters -->
+                    <div class="advanced-filters">
+                        <div class="filter-group">
+                            <label for="strain-type">Tipo de Strain:</label>
+                            <select id="strain-type">
+                                <option value="all">Todos</option>
+                                <option value="indica">Indica</option>
+                                <option value="sativa">Sativa</option>
+                                <option value="hybrid">Hybrid</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-group">
+                            <label for="thc-range">Nivel THC:</label>
+                            <select id="thc-range">
+                                <option value="all">Todos</option>
+                                <option value="low">0-10%</option>
+                                <option value="medium">10-20%</option>
+                                <option value="high">20-30%</option>
+                                <option value="very-high">30%+</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-group">
+                            <label for="price-range">Rango de Precio:</label>
+                            <select id="price-range">
+                                <option value="all">Todos</option>
+                                <option value="budget">$10-30</option>
+                                <option value="mid">$30-60</option>
+                                <option value="premium">$60-100</option>
+                                <option value="luxury">$100+</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-group">
+                            <label for="sort-by">Ordenar por:</label>
+                            <select id="sort-by">
+                                <option value="popular">Más Popular</option>
+                                <option value="price-low">Precio: Menor a Mayor</option>
+                                <option value="price-high">Precio: Mayor a Menor</option>
+                                <option value="rating">Mejor Calificado</option>
+                                <option value="newest">Más Recientes</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Grid -->
+        <section class="products-grid-section">
+            <div class="container">
+                <div class="results-info">
+                    <span id="results-count">Mostrando 24 productos</span>
+                    <div class="view-toggle">
+                        <button class="view-btn active" data-view="grid">⊞</button>
+                        <button class="view-btn" data-view="list">☰</button>
+                    </div>
+                </div>
+
+                <div class="products-grid" id="products-grid">
+                    <!-- Product Cards - Generated dynamically by JS, but here are static examples -->
+                    
+                    <!-- Flower Products -->
+                    <div class="product-card" data-category="flowers" data-strain="indica" data-thc="high" data-price="premium">
+                        <div class="product-image">
+                            <img src="https://via.placeholder.com/300x200/228B22/FFFFFF?text=Blue+Dream" alt="Blue Dream">
+                            <div class="product-badges">
+                                <span class="badge strain-badge indica">Indica</span>
+                                <span class="badge thc-badge">24% THC</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Blue Dream</h3>
+                            <p class="product-description">Strain clásico con efectos relajantes y eufóricos. Ideal para uso nocturno.</p>
+                            <div class="product-details">
+                                <div class="product-rating">
+                                    <span class="stars">⭐⭐⭐⭐⭐</span>
+                                    <span class="rating-count">(142)</span>
+                                </div>
+                                <div class="product-price">$85/8th</div>
+                            </div>
+                            <div class="product-dispensary">
+                                <small>📍 Green Valley Dispensary - 2.1 mi</small>
+                            </div>
+                            <div class="product-actions">
+                                <button class="btn-primary add-to-cart">Agregar al Carrito</button>
+                                <button class="btn-secondary btn-favorite">♡</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="edibles" data-strain="hybrid" data-thc="medium" data-price="mid">
+                        <div class="product-image">
+                            <img src="https://via.placeholder.com/300x200/00BFFF/FFFFFF?text=THC+Gummies" alt="THC Gummies">
+                            <div class="product-badges">
+                                <span class="badge category-badge">Edibles</span>
+                                <span class="badge thc-badge">10mg THC</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Mixed Berry Gummies</h3>
+                            <p class="product-description">Deliciosos gummies con sabor natural. Dosificación precisa de 10mg por unidad.</p>
+                            <div class="product-details">
+                                <div class="product-rating">
+                                    <span class="stars">⭐⭐⭐⭐⭐</span>
+                                    <span class="rating-count">(89)</span>
+                                </div>
+                                <div class="product-price">$35/pack</div>
+                            </div>
+                            <div class="product-dispensary">
+                                <small>📍 Natural Wellness - 1.8 mi</small>
+                            </div>
+                            <div class="product-actions">
+                                <button class="btn-primary add-to-cart">Agregar al Carrito</button>
+                                <button class="btn-secondary btn-favorite">♡</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="vapes" data-strain="sativa" data-thc="very-high" data-price="premium">
+                        <div class="product-image">
+                            <img src="https://via.placeholder.com/300x200/FFFF00/000000?text=Vape+Cart" alt="Vape Cartridge">
+                            <div class="product-badges">
+                                <span class="badge strain-badge sativa">Sativa</span>
+                                <span class="badge thc-badge">89% THC</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Sour Diesel Cart</h3>
+                            <p class="product-description">Cartucho de vape premium con extractos de alta pureza. Sabor intenso y efectos energizantes.</p>
+                            <div class="product-details">
+                                <div class="product-rating">
+                                    <span class="stars">⭐⭐⭐⭐⭐</span>
+                                    <span class="rating-count">(76)</span>
+                                </div>
+                                <div class="product-price">$65/cart</div>
+                            </div>
+                            <div class="product-dispensary">
+                                <small>📍 Premium Cannabis Co. - 3.2 mi</small>
+                            </div>
+                            <div class="product-actions">
+                                <button class="btn-primary add-to-cart">Agregar al Carrito</button>
+                                <button class="btn-secondary btn-favorite">♡</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="concentrates" data-strain="hybrid" data-thc="very-high" data-price="luxury">
+                        <div class="product-image">
+                            <img src="https://via.placeholder.com/300x200/FFA500/FFFFFF?text=Live+Rosin" alt="Live Rosin">
+                            <div class="product-badges">
+                                <span class="badge strain-badge hybrid">Hybrid</span>
+                                <span class="badge thc-badge">78% THC</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Gelato Live Rosin</h3>
+                            <p class="product-description">Concentrado artesanal extraído sin solventes. Sabor y potencia excepcionales.</p>
+                            <div class="product-details">
+                                <div class="product-rating">
+                                    <span class="stars">⭐⭐⭐⭐⭐</span>
+                                    <span class="rating-count">(54)</span>
+                                </div>
+                                <div class="product-price">$120/g</div>
+                            </div>
+                            <div class="product-dispensary">
+                                <small>📍 Craft Cannabis - 4.1 mi</small>
+                            </div>
+                            <div class="product-actions">
+                                <button class="btn-primary add-to-cart">Agregar al Carrito</button>
+                                <button class="btn-secondary btn-favorite">♡</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="topicals" data-strain="all" data-thc="low" data-price="mid">
+                        <div class="product-image">
+                            <img src="https://via.placeholder.com/300x200/228B22/FFFFFF?text=CBD+Cream" alt="CBD Topical">
+                            <div class="product-badges">
+                                <span class="badge category-badge">Topical</span>
+                                <span class="badge cbd-badge">200mg CBD</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Relief Cream</h3>
+                            <p class="product-description">Crema tópica con CBD para alivio localizado. Sin efectos psicoactivos.</p>
+                            <div class="product-details">
+                                <div class="product-rating">
+                                    <span class="stars">⭐⭐⭐⭐⭐</span>
+                                    <span class="rating-count">(98)</span>
+                                </div>
+                                <div class="product-price">$45/tube</div>
+                            </div>
+                            <div class="product-dispensary">
+                                <small>📍 Wellness First - 2.5 mi</small>
+                            </div>
+                            <div class="product-actions">
+                                <button class="btn-primary add-to-cart">Agregar al Carrito</button>
+                                <button class="btn-secondary btn-favorite">♡</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="flowers" data-strain="sativa" data-thc="medium" data-price="mid">
+                        <div class="product-image">
+                            <img src="https://via.placeholder.com/300x200/00BFFF/FFFFFF?text=Green+Crack" alt="Green Crack">
+                            <div class="product-badges">
+                                <span class="badge strain-badge sativa">Sativa</span>
+                                <span class="badge thc-badge">18% THC</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Green Crack</h3>
+                            <p class="product-description">Strain energizante perfecto para actividades diurnas. Sabor cítrico y dulce.</p>
+                            <div class="product-details">
+                                <div class="product-rating">
+                                    <span class="stars">⭐⭐⭐⭐⭐</span>
+                                    <span class="rating-count">(167)</span>
+                                </div>
+                                <div class="product-price">$55/8th</div>
+                            </div>
+                            <div class="product-dispensary">
+                                <small>📍 City Cannabis - 1.2 mi</small>
+                            </div>
+                            <div class="product-actions">
+                                <button class="btn-primary add-to-cart">Agregar al Carrito</button>
+                                <button class="btn-secondary btn-favorite">♡</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Load More Button -->
+                <div class="load-more-container">
+                    <button class="btn-secondary load-more">Cargar Más Productos</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🌿 Cannadam</h3>
+                    <p>Tu plataforma confiable para cannabis legal</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="dispensaries.html">Dispensarios</a></li>
+                        <li><a href="products.html">Productos</a></li>
+                        <li><a href="#">Educación</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Términos de Uso</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><a href="#">support@cannadam.com</a></li>
+                        <li><a href="#">+1-XXX-XXX-XXXX</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cannadam. Solo para mayores de 21 años. Cumplimos con todas las regulaciones locales.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/app.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>

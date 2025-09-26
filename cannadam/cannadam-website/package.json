@@ -1,0 +1,49 @@
+{
+  "name": "cannadam-website",
+  "version": "1.0.0",
+  "description": "Plataforma de cannabis legal - Conecta consumidores con dispensarios verificados",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=/index.html",
+    "build": "npm run minify-css && npm run minify-js",
+    "minify-css": "cleancss -o dist/css/style.min.css css/style.css css/dispensaries.css",
+    "minify-js": "uglifyjs js/app.js js/dispensaries.js -o dist/js/app.min.js",
+    "validate": "html-validate *.html",
+    "lighthouse": "lighthouse http://localhost:3000 --output html --output-path ./reports/lighthouse.html"
+  },
+  "keywords": [
+    "cannabis",
+    "dispensary",
+    "delivery",
+    "legal",
+    "platform",
+    "responsive",
+    "mobile-first",
+    "geolocation"
+  ],
+  "author": "MiniMax Agent",
+  "license": "MIT",
+  "dependencies": {
+    "leaflet": "^1.9.4"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "clean-css-cli": "^5.6.2",
+    "uglify-js": "^3.17.4",
+    "html-validate": "^8.7.0",
+    "lighthouse": "^10.4.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "not dead"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cannadam/website.git"
+  },
+  "homepage": "https://cannadam.com",
+  "bugs": {
+    "url": "https://github.com/cannadam/website/issues"
+  }
+}

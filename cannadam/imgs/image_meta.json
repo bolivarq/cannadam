@@ -1,0 +1,522 @@
+[
+  {
+    "query": "Professional exterior photo of a modern cannabis dispensary with clean lines, large windows, and welcoming entrance for the dispensarios section",
+    "image_info": {
+      "url": "https://utahcanna.org/wp-content/uploads/2025/05/the-flower-shop-dispensary-exterior-medical-cannabis-utah.jpg.webp",
+      "file_path": "/workspace/imgs/modern_cannabis_dispensary_flower_shop_exterior.jpg",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 224306,
+      "width": 1360,
+      "height": 905,
+      "total_pixels": 1230800,
+      "basic_score": 0.9447513570682888
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 90.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 93.0,
+      "explanation": "The image perfectly captures a modern storefront exterior with clean lines, large windows, and a welcoming entrance. The architecture is contemporary, featuring a distinctive curved blue roof, stone façade, and wooden accents. The sign 'THE FLOWER SHOP' aligns well with the 'cannabis dispensary' query, as 'flower' is a common term in the cannabis industry, especially given the prompt's mention of 'dispensarios section'. The image is very clear, well-lit, and professionally composed under a bright blue sky.",
+      "file_name": "modern_cannabis_dispensary_flower_shop_exterior.jpg",
+      "caption": "A bright, low-angle exterior shot of a modern 'The Flower Shop' cannabis dispensary, showcasing its contemporary architecture with a curved blue roof, light stone façade, and vertical wooden panels. The welcoming entrance features concrete stairs with black railings leading to a glass door and large windows, all set against a vibrant blue sky with wispy clouds. Lush green landscaping and a street with parked cars are visible in the foreground and background.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Professional exterior photo of a modern cannabis dispensary with clean lines, large windows, and welcoming entrance for the dispensarios section",
+    "image_info": {
+      "url": "https://rcbizjournal.com/wp-content/uploads/2024/08/TreehouseFeaturedStorefront.png",
+      "file_path": "/workspace/imgs/treehouse_cannabis_dispensary_exterior_night_modern.jpg",
+      "img_format": "PNG",
+      "mode": "P",
+      "file_size": 120673,
+      "width": 600,
+      "height": 400,
+      "total_pixels": 240000,
+      "basic_score": 0.7666552026556679
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 80.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image is highly relevant to the search query, clearly depicting a modern cannabis dispensary storefront named 'TREEHOUSE CANNABIS' with clean lines and large windows. The interior lighting, particularly the green accents, adds to the modern aesthetic and makes it welcoming. Although the image is a night shot with some lens flare, the clarity is sufficient, and the overall composition is professional and appealing for a 'dispensarios section'. There are no visible watermarks.",
+      "file_name": "treehouse_cannabis_dispensary_exterior_night_modern.jpg",
+      "caption": "A striking night exterior photograph of the Treehouse Cannabis dispensary storefront. The modern building features a clean, dark facade with large, illuminated windows showcasing green interior lighting and a prominent 'THC' logo. A welcoming entrance with stairs leads up to the main doors, and the 'TREEHOUSE CANNABIS' sign is clearly visible above. The overall aesthetic is professional and inviting.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Professional exterior photo of a modern cannabis dispensary with clean lines, large windows, and welcoming entrance for the dispensarios section",
+    "image_info": {
+      "url": "https://undesirable-reindeer.transforms.svdcdn.com/production/cannabis-dispensary-exterior-best-practices-common-citizen.jpg?w=600&h=540&q=85&auto=format&fit=crop&dm=1754646013&s=c3fca9090b69653cba0c0d29256ae8f6",
+      "file_path": "/workspace/imgs/common_citizen_modern_cannabis_dispensary_exterior.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 57999,
+      "width": 600,
+      "height": 540,
+      "total_pixels": 324000,
+      "basic_score": 0.7950456160314003
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image perfectly captures a professional and modern exterior of a building with clean lines and large windows. Although 'Common Citizen' isn't explicitly branded as 'cannabis' in the visible signage, it is a well-known cannabis dispensary, fulfilling the core relevance requirement. The image is clear, well-lit, and professionally composed without any watermarks.",
+      "file_name": "common_citizen_modern_cannabis_dispensary_exterior.jpg",
+      "caption": "A professional exterior photograph of a modern Common Citizen cannabis dispensary, showcasing its contemporary architecture with clean lines, large glass windows, and a prominent freestanding logo sign. The building features white brick and dark gray paneling, creating an inviting and professional storefront against a bright sky.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Clean mobile interface showing cannabis delivery service with tracking and order management for the deliveries section",
+    "image_info": {
+      "url": "https://www.figma.com/community/resource/491dd81e-9a34-4d27-a1d7-9eb817a7973b/thumbnail",
+      "file_path": "/workspace/imgs/cannabis_delivery_service_mobile_app_interface_screens.jpg",
+      "img_format": "PNG",
+      "mode": "RGBA",
+      "file_size": 228056,
+      "width": 1440,
+      "height": 960,
+      "total_pixels": 1382400,
+      "basic_score": 0.9027021973207916
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image perfectly depicts a clean mobile interface for a cannabis delivery service, showing a cart, a product detail page (Royal Haze with CBD/THC levels), and a user profile with order history, fulfilling the 'order management' and 'delivery service' aspects of the prompt. The design is modern, and the image clarity is excellent with no watermarks.",
+      "file_name": "cannabis_delivery_service_mobile_app_interface_screens.jpg",
+      "caption": "A clean and modern mobile application interface for a cannabis delivery service, displayed across three screens. The left screen shows a shopping cart with items like a lockable stash bag, beaker water pipe, and MAC 1 cannabis, totaling USD 91.5, with a 'Make Payment' button. The center screen details 'Royal HAZE' (a hybrid cannabis strain) with CBD and THC levels, a description, and an 'Add To Cart' option for 10gm at $7.99/gm. The right screen features a user profile ('YasSalmani') with options for personal information, settings, notifications, order history, and a discount section showing '25% OFF', all contributing to an intuitive order management experience.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Clean mobile interface showing cannabis delivery service with tracking and order management for the deliveries section",
+    "image_info": {
+      "url": "https://www.blaze.me/wp-content/uploads/2023/02/delivery-mobile.png",
+      "file_path": "/workspace/imgs/cannabis_delivery_mobile_app_interface_tracking_order_management.jpg",
+      "img_format": "PNG",
+      "mode": "RGBA",
+      "file_size": 226290,
+      "width": 1200,
+      "height": 699,
+      "total_pixels": 838800,
+      "basic_score": 0.9240690825901732
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is perfectly relevant to the search query and prompt, clearly showcasing a clean mobile app interface for a cannabis delivery service with explicit tracking and order management features. The multiple screens are well-composed, high-resolution, and free of watermarks.",
+      "file_name": "cannabis_delivery_mobile_app_interface_tracking_order_management.jpg",
+      "caption": "A collection of five mobile phone screens displaying a clean and modern cannabis delivery service application interface. The screens illustrate various functionalities including a map-based delivery route, detailed order management with product lists (e.g., 'Awakened Topicals - 1:1 Raw Cannabis Balm') and pricing, a central delivery tasks dashboard with tracking information (addresses, times, distances), an inventory management section, and a completed transactions summary. The app features a professional design with clear typography and intuitive navigation, highlighting its capabilities for managing and tracking cannabis product deliveries.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Clean mobile interface showing cannabis delivery service with tracking and order management for the deliveries section",
+    "image_info": {
+      "url": "https://solguruz.com/_next/image/?url=https%3A%2F%2Fassets.solguruz.com%2Fcasestudy%2Fleafbis%2Fleafbis-on-demand-cannabis-delivery-app.webp&w=828&q=75",
+      "file_path": "/workspace/imgs/clean_cannabis_delivery_mobile_app_interface.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 53423,
+      "width": 808,
+      "height": 1122,
+      "total_pixels": 906576,
+      "basic_score": 0.9038063216282459
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 88.0,
+      "clarity_score": 100.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly depicts a clean mobile interface for a cannabis delivery service, with excellent clarity and no watermarks. It is highly relevant to the search query and fulfills the 'clean mobile interface' and 'cannabis delivery service' aspects of the prompt. However, it does not show the 'tracking and order management for the deliveries section' specifically requested in the prompt, which slightly lowers its relevance score for the prompt's entirety, though it still serves as a strong example of the app's home screen.",
+      "file_name": "clean_cannabis_delivery_mobile_app_interface.jpg",
+      "caption": "A high-quality image of a modern mobile phone displaying the home screen of a clean, minimalist cannabis delivery service application. The interface features a prominent banner offering 'Get 10% Discounts On All Items!' with an 'Order Now' button, accompanied by visuals of CBD oil, chocolate, mint leaves, and pre-rolls. Below the banner, categories such as 'Flower', 'Apparel', 'Edibles', 'Pre-rolls', 'Tinctures', 'Seeds', and 'CBD' are clearly displayed with corresponding icons. The top bar indicates '1226 University' as the location, along with search and notification icons. The app's design is sleek, utilizing a light green and white color palette.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Educational infographic about cannabis strains and benefits with scientific information and clean design",
+    "image_info": {
+      "url": "https://www.crescolabs.com/wp-content/uploads/2019/06/5cfe8ea05de6477afc8c2846_indica-vs-sativa.jpg",
+      "file_path": "/workspace/imgs/sativa_indica_cannabis_strains_comparison_infographic_benefits.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 173595,
+      "width": 1024,
+      "height": 895,
+      "total_pixels": 916480,
+      "basic_score": 0.9296388088382784
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is a highly relevant and well-designed infographic that clearly distinguishes between Sativa and Indica cannabis strains, their physical characteristics, and their associated effects/benefits. The design is clean, utilizing color-coding and icons effectively for easy comprehension. It delivers on the 'educational infographic about cannabis strains and benefits' and 'clean design' aspects of the prompt.",
+      "file_name": "sativa_indica_cannabis_strains_comparison_infographic_benefits.jpg",
+      "caption": "An educational infographic visually comparing Sativa and Indica cannabis strains. The Sativa side, depicted in red, highlights characteristics like 'Taller & Slimmer' plants, 'Longer & Thinner' leaves, 'Head High,' 'Alertness,' 'Uplifting & Euphoric,' 'Creativity,' and 'Increased Energy,' concluding with 'Best for Daytime Use.' The Indica side, in blue, describes 'Shorter & Bushier' plants, 'Shorter & Wider' leaves, 'Body High,' 'Relaxation,' 'Appetite Stimulator,' 'Sleep Aid,' and 'Pain Relief,' concluding with 'Best for Nighttime Use.' Each characteristic is accompanied by a relevant icon.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Educational infographic about cannabis strains and benefits with scientific information and clean design",
+    "image_info": {
+      "url": "https://www.ahrq.gov/sites/default/files/wysiwyg/data/infographics/cannabis-final.jpg",
+      "file_path": "/workspace/imgs/cannabis_products_chronic_pain_infographic_AHRQ_research.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 282667,
+      "width": 1000,
+      "height": 750,
+      "total_pixels": 750000,
+      "basic_score": 0.9288829362864426
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 85.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image is a clear, professionally designed infographic from AHRQ, discussing the effectiveness of various cannabis-based products in treating chronic pain. It aligns well with the request for an 'educational infographic about cannabis benefits with scientific information and clean design.' While it categorizes products by their chemical profiles (THC/CBD ratios) rather than naming specific strains, this still provides relevant information regarding different cannabis types. The clarity is excellent, and there are no obstructive watermarks.",
+      "file_name": "cannabis_products_chronic_pain_infographic_AHRQ_research.jpg",
+      "caption": "An educational infographic from the Agency for Healthcare Research and Quality (AHRQ) titled 'New Research From AHRQ: Are Cannabis-Based Products Effective in Treating Chronic Pain?' It reviews various cannabis product types, including mostly THC, mostly CBD, equal THC and CBD, synthetic, whole plant, and plant extract, each represented by a distinct icon. The infographic concludes that evidence suggests cannabis can reduce some types of chronic pain, but warns of potential adverse effects such as dizziness and nausea, illustrated with stick figures. It emphasizes that each cannabis-based treatment has specific potential benefits and harms, presented with a clean and professional design.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Professional product display showing various cannabis products including flowers, edibles and vapes arranged in a clean, premium way",
+    "image_info": {
+      "url": "https://images.squarespace-cdn.com/content/v1/5be322981137a6f7b638e86d/63809b28-9564-45ce-ad8d-7cab640ed70e/Stiiizy.png",
+      "file_path": "/workspace/imgs/STIIIZY_cannabis_product_display_edibles_vapes_flowers_promo.jpg",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 671524,
+      "width": 1600,
+      "height": 900,
+      "total_pixels": 1440000,
+      "basic_score": 0.9328590821939201
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image is highly relevant to the search query, featuring a professional advertisement for STIIIZY cannabis products, including edibles, vapes, and what appears to be flowers/concentrates. The display is clean and presents the items in a premium manner. Text and product images are clear and sharp, contributing to high clarity. There are no intrusive watermarks, only brand logos and legal disclaimers as part of the ad itself. The overall composition and design are professional and effective.",
+      "file_name": "STIIIZY_cannabis_product_display_edibles_vapes_flowers_promo.jpg",
+      "caption": "A professional promotional graphic for STIIIZY cannabis products, featuring a variety of items such as vape pens/cartridges, edibles (gummies, chocolate), and what appears to be cannabis flower or concentrates. The advertisement highlights a '30% OFF' discount and specifies product availability by days of the week, presented against a dark background with subtle cannabis leaf imagery. The branding is prominent, and the image includes a 'Santa Cruz Naturals' logo with license numbers.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Professional product display showing various cannabis products including flowers, edibles and vapes arranged in a clean, premium way",
+    "image_info": {
+      "url": "https://images.prismic.io/sunnyside/44b47e91-b9f7-485e-a08c-4f5b02686337_SUNS24021_eComm_DealsPage_Assets_Web_Mobile_2.jpg?auto=compress,format&rect=0,0,828,1040&w=828&h=1040",
+      "file_path": "/workspace/imgs/premium_cannabis_product_display_flowers_edibles_vape_orange.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 54507,
+      "width": 828,
+      "height": 1040,
+      "total_pixels": 861120,
+      "basic_score": 0.9030949734760385
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image is perfectly relevant to the search query and prompt, showcasing a professional and clean display of cannabis flowers (buds and branded jar), a vape cartridge, and edibles. The clarity is excellent, and there are no distracting watermarks. The vibrant orange background gives it a modern and premium feel, making the products stand out.",
+      "file_name": "premium_cannabis_product_display_flowers_edibles_vape_orange.jpg",
+      "caption": "A vibrant and professionally styled flat lay display of various premium cannabis products, including a green jar of 'Cresco Premium Flower', loose cannabis buds, a vape cartridge, and a tin filled with red, sugar-coated edibles, all artfully arranged on a bright orange background with subtle asterisk graphics.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Professional product display showing various cannabis products including flowers, edibles and vapes arranged in a clean, premium way",
+    "image_info": {
+      "url": "https://vallejoreliefcenter.com/wp-content/uploads/2024/02/cannabis-dispensary-product-display-1024x683.webp",
+      "file_path": "/workspace/imgs/premium_cannabis_products_display_storefront.jpg",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 125244,
+      "width": 1024,
+      "height": 683,
+      "total_pixels": 699392,
+      "basic_score": 0.9158317956479712
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly matches the search query and prompt, displaying a professional, clean, and premium arrangement of various packaged products typical of cannabis dispensaries (suggesting edibles, vapes, and flowers). The clarity is excellent, and there are no watermarks.",
+      "file_name": "premium_cannabis_products_display_storefront.jpg",
+      "caption": "A wide-angle interior photograph of a modern, brightly lit cannabis dispensary, showcasing extensive white shelving units filled with a diverse array of professionally packaged cannabis products. The clean, minimalist display includes various jars, boxes, and colorful hanging bags, indicative of edibles, vapes, and possibly cannabis flower or concentrates, all neatly organized to convey a premium retail experience. Green decorative foliage accents the top of some shelves, adding to the fresh aesthetic.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Professional product display showing various cannabis products including flowers, edibles and vapes arranged in a clean, premium way",
+    "image_info": {
+      "url": "https://s7d1.scene7.com/is/image/CENODS/09729-feature1-collage?$responsive$&qlt=90,0&resMode=sharp2&fmt=webp",
+      "file_path": "/workspace/imgs/cannabis_products_edibles_vapes_flowers_display.jpg",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 115096,
+      "width": 1200,
+      "height": 635,
+      "total_pixels": 762000,
+      "basic_score": 0.9201115076998092
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image is highly relevant to the search query and prompt, showcasing a wide range of cannabis products including a plant (flowers), chocolate bars, infused cream, soda bottles, and coffee pods (edibles), a vape cartridge, CBD/THC oil, and concentrate. The clarity is excellent, with sharp details and good lighting. There are no watermarks. The overall presentation is clean and professional, although it's a collage rather than a single artfully arranged scene, which slightly impacts the 'premium display' aspect but effectively displays variety.",
+      "file_name": "cannabis_products_edibles_vapes_flowers_display.jpg",
+      "caption": "A professional product display showcasing various cannabis products on a clean white background. Featured items include a cannabis plant, chocolate bars, a jar of cannabis-infused cream, colorful soda bottles (red, brown, green), a vape cartridge, a dropper bottle with golden oil, a cannabis concentrate (shatter/wax) on a dab tool, and colorful Nespresso-style pods, highlighting the diverse range of offerings in the cannabis market.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Professional diverse people using cannabis products responsibly in natural outdoor setting, lifestyle photography for website hero section",
+    "image_info": {
+      "url": "https://c.files.bbci.co.uk/17898/production/_126380469_mediaitem126324102.jpg",
+      "file_path": "/workspace/imgs/diverse_person_cannabis_field_outdoor_lifestyle.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 255046,
+      "width": 976,
+      "height": 549,
+      "total_pixels": 535824,
+      "basic_score": 0.8819851695124908
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 88.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image is highly relevant, featuring a diverse individual in a natural outdoor setting with cannabis plants, aligning well with the 'cannabis lifestyle' and 'natural outdoor' aspects of the query. The clarity and lack of watermarks are excellent. The 'responsible' aspect is not explicitly shown but also not contradicted. While professional in quality, the subject's downward gaze might limit its direct engagement for a 'website hero section', which often benefits from more direct interaction.",
+      "file_name": "diverse_person_cannabis_field_outdoor_lifestyle.jpg",
+      "caption": "A man wearing a traditional hat and a vibrant patterned jacket stands amidst a lush field of cannabis plants under bright natural light. He is looking downwards, with a string of red beads around his neck, conveying a sense of contemplation or connection with nature. The background is a dense, vibrant green expanse of cannabis foliage.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Clean mobile-first responsive website layout showing cannabis platform interface with forest green and electric blue color scheme",
+    "image_info": {
+      "url": "https://www.shutterstock.com/image-vector/hemp-cultivation-growing-marijuana-indoors-600nw-1996031858.jpg",
+      "file_path": "/workspace/imgs/mobile_cannabis_platform_interface_green_blue_illustration.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 38679,
+      "width": 600,
+      "height": 359,
+      "total_pixels": 215400,
+      "basic_score": 0.7516528207430803
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 100.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is highly relevant to the search query and prompt, showcasing a mobile-first interface for a cannabis platform. It effectively uses green for plants and blue for elements like lab equipment and furniture, matching the requested color scheme. The vector illustration provides excellent clarity, and there are no watermarks. The overall composition and professional style are very strong.",
+      "file_name": "mobile_cannabis_platform_interface_green_blue_illustration.jpg",
+      "caption": "Three distinct mobile application screens illustrate a clean, mobile-first responsive interface for a cannabis research or cultivation platform. The design prominently features cannabis plants, scientific laboratory equipment, and a color scheme dominated by shades of green for the plants and various blues for the furniture and labware, set against a warm, light background. The screens depict a scientist inspecting plants, a hand interacting with plants, and a lab desk with a computer displaying genetic data, suggesting activities like plant monitoring, cultivation, and scientific analysis in the cannabis industry.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Clean mobile-first responsive website layout showing cannabis platform interface with forest green and electric blue color scheme",
+    "image_info": {
+      "url": "https://s.tmimgcdn.com/scr/800x500/227700/seban-cannabis-and-medical-marijuana-cbd-oil-shop-html5-website-template_227799-original.png",
+      "file_path": "/workspace/imgs/responsive_cannabis_website_interface_green_blue.jpg",
+      "img_format": "PNG",
+      "mode": "RGB",
+      "file_size": 335005,
+      "width": 800,
+      "height": 500,
+      "total_pixels": 400000,
+      "basic_score": 0.840120551389091
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly matches the search query and prompt, showcasing a clean, mobile-first responsive cannabis website interface with a distinct forest green and electric blue color scheme. The clarity is excellent, and there are no watermarks.",
+      "file_name": "responsive_cannabis_website_interface_green_blue.jpg",
+      "caption": "A professionally designed layout showcasing a responsive cannabis website interface, featuring multiple views of the 'Seban' platform. The design emphasizes '100% Organic CANNABIS OIL From Our Farm' products with a dark blue background complemented by vibrant forest green accents for text, buttons, and cannabis leaf graphics. Overlaid text indicates 'RESPONSIVE Cannabis Site,' '8+ Pages,' and a Bootstrap 'B' icon, highlighting its mobile-first and comprehensive design.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Clean mobile-first responsive website layout showing cannabis platform interface with forest green and electric blue color scheme",
+    "image_info": {
+      "url": "https://s3.envato.com/files/321758352/01_Medigreen_Preview.__large_preview.jpg",
+      "file_path": "/workspace/imgs/MediGreen_WordPress_Theme_Cannabis_Demos_Green_Blue_Website_Layouts.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 298600,
+      "width": 590,
+      "height": 300,
+      "total_pixels": 177000,
+      "basic_score": 0.7693014566434516
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 88.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image is highly relevant to a cannabis website interface, prominently featuring a cannabis leaf logo and 'MediGreen' theme branding. A strong green color scheme is present, with secondary blue and purple accents, though not explicitly 'electric blue' throughout. While the layouts appear clean and professional, their 'mobile responsive' and 'mobile-first' nature is implied by 'WordPress Theme' and '5 Demos' rather than explicitly demonstrated through varied screen sizes. The clarity is excellent, and there are no external watermarks.",
+      "file_name": "MediGreen_WordPress_Theme_Cannabis_Demos_Green_Blue_Website_Layouts.jpg",
+      "caption": "A dynamic collage showcasing five distinct demo layouts for the 'MediGreen' WordPress Theme, designed for cannabis-related businesses. The theme features a prominent cannabis leaf logo and integrates a primary forest green color palette, complemented by secondary accents of blue and purple. The clean and modern website interfaces display sections like 'Cannabis Flowers,' 'Vape Night,' and 'Cannabis Consulting Solutions,' illustrating potential designs for a responsive online platform.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Logo design mockup for 'Cannadam' with subtle cannabis leaf element in forest green, modern typography, tech-forward branding",
+    "image_info": {
+      "url": "https://images.scalebranding.com/hemp-logo-cannabis-logo-marijuana-leaf-drop-logo-cbd-logo-606537bb-de0b-4f54-89a2-c59a40b1e2c9.png",
+      "file_path": "/workspace/imgs/Cannadam_Logo_Cannabis_Leaf_Forest_Green_Modern.jpg",
+      "img_format": "PNG",
+      "mode": "RGBA",
+      "file_size": 44670,
+      "width": 1200,
+      "height": 1200,
+      "total_pixels": 1440000,
+      "basic_score": 0.8631311832316084
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 100.0,
+      "watermark_score": 60.0,
+      "overall_score": 85.0,
+      "explanation": "The logo design is highly relevant, perfectly matching the request for a subtle cannabis leaf element in forest green with a modern and tech-forward aesthetic. The image clarity is excellent, with sharp lines and crisp details. However, a subtle grid-like watermark is visible across the background.",
+      "file_name": "Cannadam_Logo_Cannabis_Leaf_Forest_Green_Modern.jpg",
+      "caption": "A modern, minimalist logo design featuring a stylized teardrop or water drop shape in forest green. The left side incorporates serrated edges reminiscent of a cannabis leaf, subtly integrated into the design, while the right side maintains a smooth, clean curve. This abstract and clean aesthetic is ideal for tech-forward branding for 'Cannadam'.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Logo design mockup for 'Cannadam' with subtle cannabis leaf element in forest green, modern typography, tech-forward branding",
+    "image_info": {
+      "url": "https://static.vecteezy.com/system/resources/previews/012/119/756/non_2x/cannabis-logo-green-marijuana-leaf-icon-free-vector.jpg",
+      "file_path": "/workspace/imgs/modern-cannabis-leaf-logo-forest-green.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 38248,
+      "width": 980,
+      "height": 980,
+      "total_pixels": 960400,
+      "basic_score": 0.9200340855684286
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 70.0,
+      "clarity_score": 100.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image features a clear, modern cannabis leaf logo against a forest green background, aligning well with the 'cannabis leaf forest green modern' aspects of the search query and prompt. The clarity is excellent due to its vector-like nature. However, the specific brand name 'Cannadam' is not present, and the leaf element is central and prominent, not 'subtle' as requested in the prompt. While the typography is modern, it doesn't distinctly convey 'tech-forward branding'.",
+      "file_name": "modern-cannabis-leaf-logo-forest-green.jpg",
+      "caption": "A stylized, vibrant green cannabis leaf logo, rendered with a clean, modern graphic design aesthetic, set against a deep forest green background. The leaf features graduated shades of green, giving it depth and a contemporary look. Below the central leaf, the word 'CANNABIS' is displayed in a white, sans-serif font, accompanied by 'SLOGAN HERE' as a placeholder for branding.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Logo design mockup for 'Cannadam' with subtle cannabis leaf element in forest green, modern typography, tech-forward branding",
+    "image_info": {
+      "url": "https://static.vecteezy.com/system/resources/thumbnails/049/080/933/small_2x/creative-of-abstract-marijuana-leaf-cannabis-logo-design-template-vector.jpg",
+      "file_path": "/workspace/imgs/modern_stylized_cannabis_leaf_logo_mockup_forest_green.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 23533,
+      "width": 800,
+      "height": 400,
+      "total_pixels": 320000,
+      "basic_score": 0.7784570833986902
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 80.0,
+      "clarity_score": 100.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is highly relevant to the requested design elements and style, featuring a modern, tech-forward stylized cannabis leaf logo in forest green with modern typography. The primary deviation is the brand name displayed as 'CANNABIS' instead of 'Cannadam' in the prompt. However, as a design mockup demonstrating the requested visual characteristics, it is excellent. Clarity is perfect, and there are no watermarks.",
+      "file_name": "modern_stylized_cannabis_leaf_logo_mockup_forest_green.jpg",
+      "caption": "A modern logo design mockup featuring a stylized cannabis leaf integrated with lightning bolt elements, presented in a forest green and a lighter green palette. The design includes sleek, sans-serif typography for 'CANNABIS' and a 'SLOGAN HERE' placeholder, showcased on both dark forest green and white backgrounds, along with a square app icon variation. The aesthetic is clean, contemporary, and suggests a tech-forward or energetic brand identity.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Modern hero banner image showing an interactive map interface with green location pins for cannabis dispensaries, clean tech aesthetic with forest green and electric blue colors",
+    "image_info": {
+      "url": "https://www.caliper.com/graphics/cbd-thc-store-mapping.jpg",
+      "file_path": "/workspace/imgs/cannabis_cbd_store_location_heatmap_map_california.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 112719,
+      "width": 750,
+      "height": 419,
+      "total_pixels": 314250,
+      "basic_score": 0.8008824916442522
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 88.0,
+      "explanation": "The image is highly relevant, depicting an interactive map interface with clear green location pins representing CBD stores, which directly aligns with the 'cannabis platform' aspect of the prompt. The heatmap overlay uses blue and purple hues, complementing the 'electric blue' and 'forest green' (pins) aesthetic. Clarity is excellent, and there are no watermarks. The overall composition is clean and modern, suitable for a tech-oriented hero banner, although it is a raw map image rather than a pre-designed banner.",
+      "file_name": "cannabis_cbd_store_location_heatmap_map_california.jpg",
+      "caption": "A modern, interactive heatmap interface displaying the distribution of CBD stores across a region of Southern California, including Thousand Oaks, Malibu, Beverly Hills, and Los Angeles. Green pins mark individual CBD store locations, while a gradient heatmap in blue, purple, and green shades indicates store density, with brighter colors representing higher concentrations. A scale bar at the bottom left indicates distances in miles.",
+      "recommend": true,
+      "error": ""
+    }
+  }
+]

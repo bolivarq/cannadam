@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cannadam - Tu Plataforma de Cannabis Legal</title>
+    <meta name="description" content="Cannadam conecta consumidores con dispensarios verificados, servicios de delivery y productos premium de cannabis legal.">
+    
+    <!-- CSS Principal -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Leaflet para mapas -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Modal de Verificación de Edad -->
+    <div id="age-verification-modal" class="age-modal">
+        <div class="age-modal-content">
+            <div class="age-modal-header">
+                <img src="assets/cannadam-logo.png" alt="Cannadam Logo" class="modal-logo">
+                <h2>Verificación de Edad</h2>
+            </div>
+            <div class="age-modal-body">
+                <div class="age-icon">
+                    <i class="fas fa-cannabis"></i>
+                </div>
+                <p class="age-question">¿Tienes 21 años o más?</p>
+                <p class="age-disclaimer">Debes tener al menos 21 años para acceder a este sitio web y usar nuestros servicios. Solo operamos en jurisdicciones donde el cannabis es legal.</p>
+                <div class="age-buttons">
+                    <button id="age-yes" class="btn-age-yes">Sí, tengo 21+</button>
+                    <button id="age-no" class="btn-age-no">No, soy menor</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Principal -->
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <!-- Logo -->
+                <div class="nav-logo">
+                    <img src="assets/cannadam-logo.png" alt="Cannadam">
+                    <span class="logo-text">Cannadam</span>
+                </div>
+                
+                <!-- Barra de búsqueda central -->
+                <div class="nav-search">
+                    <div class="search-container">
+                        <input type="text" placeholder="Encuentra dispensarios, deliveries o productos cerca de ti..." class="search-input">
+                        <button class="search-btn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <button class="location-btn" id="location-btn">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Navegación principal -->
+                <ul class="nav-menu">
+                    <li><a href="#dispensarios" class="nav-link">Dispensarios</a></li>
+                    <li><a href="#deliveries" class="nav-link">Deliveries</a></li>
+                    <li><a href="#productos" class="nav-link">Productos</a></li>
+                    <li><a href="#educacion" class="nav-link">Educación</a></li>
+                </ul>
+                
+                <!-- Botones de usuario -->
+                <div class="nav-user">
+                    <button class="btn-login">Iniciar Sesión</button>
+                    <button class="btn-register">Registrarse</button>
+                </div>
+                
+                <!-- Menú móvil -->
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección Hero -->
+    <section class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Conecta con lo mejor del
+                        <span class="highlight">cannabis legal</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Cannadam es tu plataforma para descubrir dispensarios verificados, 
+                        ordenar deliveries rápidos y explorar productos premium.
+                    </p>
+                    <div class="hero-cta">
+                        <button class="btn-primary-large" id="start-search">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Encuentra cerca de ti
+                        </button>
+                        <button class="btn-secondary-large">
+                            <i class="fas fa-play-circle"></i>
+                            Ver cómo funciona
+                        </button>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Dispensarios</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">1000+</span>
+                            <span class="stat-label">Productos</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Servicios Delivery</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-map-container">
+                        <div id="hero-map" class="hero-map"></div>
+                        <div class="map-overlay">
+                            <div class="location-card">
+                                <h3>Dispensario Cercano</h3>
+                                <p>Green Paradise - 0.5 km</p>
+                                <div class="rating">
+                                    <span class="stars">★★★★★</span>
+                                    <span class="rating-text">4.8 (120 reseñas)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Funcionalidades Principales -->
+    <section class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Todo lo que necesitas en un solo lugar</h2>
+                <p class="section-subtitle">Explora, compara y ordena desde la plataforma más completa de cannabis legal</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>Dispensarios Verificados</h3>
+                    <p>Encuentra y explora cientos de dispensarios con licencias verificadas, reseñas reales y menús actualizados.</p>
+                    <a href="#dispensarios" class="feature-link">Ver dispensarios <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Delivery Rápido</h3>
+                    <p>Ordena desde casa con servicios de entrega seguros, discretos y con tracking en tiempo real.</p>
+                    <a href="#deliveries" class="feature-link">Ver deliveries <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Productos Premium</h3>
+                    <p>Descubre flowers, edibles, vapes y concentrados de las mejores marcas con descripciones detalladas.</p>
+                    <a href="#productos" class="feature-link">Ver productos <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa Interactivo Principal -->
+    <section class="map-section" id="interactive-map">
+        <div class="container">
+            <div class="map-header">
+                <h2 class="section-title">Explora dispensarios cercanos</h2>
+                <div class="map-filters">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="medical">Médicos</button>
+                    <button class="filter-btn" data-filter="recreational">Recreativos</button>
+                    <button class="filter-btn" data-filter="delivery">Con Delivery</button>
+                </div>
+            </div>
+            <div class="map-container">
+                <div id="main-map" class="main-map"></div>
+                <div class="map-sidebar">
+                    <div class="sidebar-header">
+                        <h3>Dispensarios encontrados</h3>
+                        <span class="results-count">12 resultados</span>
+                    </div>
+                    <div class="dispensary-list" id="dispensary-list">
+                        <!-- Los dispensarios se cargarán dinámicamente -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Productos Destacados -->
+    <section class="featured-products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Productos destacados</h2>
+                <p class="section-subtitle">Los favoritos de nuestra comunidad</p>
+            </div>
+            
+            <div class="product-categories">
+                <button class="category-btn active" data-category="all">Todos</button>
+                <button class="category-btn" data-category="flowers">Flowers</button>
+                <button class="category-btn" data-category="edibles">Edibles</button>
+                <button class="category-btn" data-category="vapes">Vapes</button>
+                <button class="category-btn" data-category="concentrates">Concentrados</button>
+            </div>
+            
+            <div class="products-grid" id="products-grid">
+                <!-- Los productos se cargarán dinámicamente -->
+            </div>
+            
+            <div class="products-cta">
+                <button class="btn-primary-large">Ver todos los productos</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Educación -->
+    <section class="education-section" id="educacion">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Aprende sobre cannabis</h2>
+                <p class="section-subtitle">Información confiable basada en ciencia para tomar mejores decisiones</p>
+            </div>
+            
+            <div class="education-grid">
+                <div class="education-card featured">
+                    <div class="card-image">
+                        <img src="assets/education-strains.jpg" alt="Guía de Strains">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-category">Guía Principiantes</span>
+                        <h3>Indica vs Sativa: Diferencias y Efectos</h3>
+                        <p>Aprende las características únicas de cada tipo de cannabis y cómo elegir el strain perfecto para ti.</p>
+                        <div class="card-meta">
+                            <span class="read-time">5 min lectura</span>
+                            <span class="card-date">Hace 2 días</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="education-card">
+                    <div class="card-image">
+                        <img src="assets/education-dosing.jpg" alt="Guía de Dosificación">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-category">Dosificación</span>
+                        <h3>Cómo dosificar edibles correctamente</h3>
+                        <p>Todo lo que necesitas saber para una experiencia segura con comestibles de cannabis.</p>
+                        <div class="card-meta">
+                            <span class="read-time">7 min lectura</span>
+                            <span class="card-date">Hace 1 semana</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="education-card">
+                    <div class="card-image">
+                        <img src="assets/education-legal.jpg" alt="Aspectos Legales">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-category">Legal</span>
+                        <h3>Leyes de cannabis por provincia</h3>
+                        <p>Mantente informado sobre la legislación actual y dónde puedes consumir legalmente.</p>
+                        <div class="card-meta">
+                            <span class="read-time">10 min lectura</span>
+                            <span class="card-date">Hace 2 semanas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <img src="assets/cannadam-logo.png" alt="Cannadam" class="footer-logo">
+                        <span class="footer-brand-text">Cannadam</span>
+                    </div>
+                    <p class="footer-description">
+                        Tu plataforma confiable para conectar con lo mejor del cannabis legal. 
+                        Fundada en 2025 con la misión de facilitar el acceso seguro y educado.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Servicios</h4>
+                    <ul class="footer-links">
+                        <li><a href="#dispensarios">Dispensarios</a></li>
+                        <li><a href="#deliveries">Servicios de Delivery</a></li>
+                        <li><a href="#productos">Catálogo de Productos</a></li>
+                        <li><a href="#educacion">Centro Educativo</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Empresa</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">Sobre Nosotros</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#press">Prensa</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Soporte</h4>
+                    <ul class="footer-links">
+                        <li><a href="#help">Centro de Ayuda</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#terms">Términos de Uso</a></li>
+                        <li><a href="#privacy">Política de Privacidad</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Contacto</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> support@cannadam.com</p>
+                        <p><i class="fas fa-phone"></i> +1-888-CANNADAM</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Toronto, ON, Canadá</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>&copy; 2025 Cannadam. Todos los derechos reservados.</p>
+                    <p class="legal-disclaimer">
+                        Solo para mayores de 21 años. Cumplimos con todas las leyes locales de cannabis. 
+                        Consume responsablemente.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
